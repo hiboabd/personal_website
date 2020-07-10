@@ -4,11 +4,11 @@ import React from 'react';
 function Home() {
 
   return (
-    <div className="wrapper">
-      <div className="bar"></div>
-      <div className="name-container">
-        <h1> Hibo Abdilaahi </h1>
-      </div>
+    <div className="home-wrapper">
+        <h1> Hi, I'm Hibo Abdilaahi. </h1>
+        <div className="dynamic-text">
+          <p> Junior software developer.</p>
+        </div>
     </div>
   );
 }

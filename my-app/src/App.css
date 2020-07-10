@@ -1,5 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body{
-  background-color: #000000;
+  background-color: #4A2FED;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,34 +13,28 @@ body{
 }
 
 h1{
-  font-size: 96px;
+  text-align: center;
+  color: white;
+}
+
+p{
+  text-align: center;
   color: white;
 }
 
 .root {
   position: relative;
+  height: auto;
 }
 
-.wrapper {
+.home-wrapper {
   position: relative;
-  height: 600px;
-}
-
-.name-container{
-  background-color: #D90429;
-  width: 1300px;
-  height: 546px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.bar{
-  position: absolute;
-  top: 10%;
-  left: -7%;
-  background-color: #F2F2F2;
-  width: 1200px;
-  height: 60px;
+.dynamic-text{
+  margin-top: 30px;
 }
