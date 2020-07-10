@@ -22,7 +22,30 @@ p{
   color: white;
 }
 
+h3{
+  text-align: center;
+  color: white;
+}
 
+.navbar{
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  left: 0; /* Position navbar to start at left hand corner of page*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-item {
+  display:inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 .home-text {
   display: flex;
