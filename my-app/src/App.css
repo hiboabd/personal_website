@@ -39,9 +39,9 @@ p{
   margin-top: 30px;
 }
 
-/* If the viewing area is bigger than 1100px */
+/* If the viewing area is bigger than 1024px */
 /* width of my browser is 1199px */
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1024px) {
   h1{
     text-align: center;
     font-size: 6rem;
@@ -51,6 +51,22 @@ p{
   p{
     text-align: center;
     font-size: 3rem;
+    color: white;
+  }
+}
+
+/* If the viewing area is bigger than 768px and less than 1023px*/
+/* font sizing for ipads */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  h1{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+  }
+
+  p{
+    text-align: center;
+    font-size: 2rem;
     color: white;
   }
 }
