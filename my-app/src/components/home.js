@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../Hibo_Abdilaahi.jpeg"
+import image from "../images/Hibo_Abdilaahi.jpeg"
 import Typical from 'react-typical'
 
 function Home() {
