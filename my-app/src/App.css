@@ -100,14 +100,23 @@ h3{
   padding-bottom: 10px;
 }
 
+.footer img{
+  position: absolute;
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  top: 0;
+  margin-left: -20px;
+}
+
 .footer-item {
   display:inline-block;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Add a background color on mouse-over */
-.footer:hover {
+.footer li:hover {
   background-color: #B56576;
 }
 

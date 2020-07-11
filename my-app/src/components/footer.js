@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
 
 export default class Footer extends Component {
   render(){
@@ -8,10 +8,15 @@ export default class Footer extends Component {
       <nav>
         <div className="footer">
         <ul>
-          <li className="footer-item"><Link style={{ textDecoration: 'none' }} to="/"><h3>Home</h3></Link></li>
-          <li className="footer-item"><Link style={{ textDecoration: 'none' }} to="/about"><h3>About Me</h3></Link></li>
-          <li className="footer-item"><Link style={{ textDecoration: 'none' }} to="/portfolio"><h3>Portfolio</h3></Link></li>
-          <li className="footer-item"><Link style={{ textDecoration: 'none' }} to="/contact"><h3>Contact</h3></Link></li>
+          <li className="footer-item">
+            <SocialIcon url="https://github.com/hiboabd/CV" />
+          </li>
+          <li className="footer-item">
+            <SocialIcon url="https://www.linkedin.com/in/hibo-abdilaahi-68405017b/" />
+          </li>
+          <li className="footer-item">
+            <SocialIcon url="http://twitter.com/Hibocodes" />
+          </li>
         </ul>
         </div>
     </nav>
