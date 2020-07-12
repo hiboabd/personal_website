@@ -7,7 +7,6 @@ export default class Navbar extends Component {
   render(){
 
     return (
-      <nav>
         <div className="navbar">
         <ul>
           <li className="navbar-item"><Link style={{ textDecoration: 'none' }} to="/" className="navbar-brand"><h3>Home</h3></Link></li>
@@ -16,7 +15,6 @@ export default class Navbar extends Component {
           <li className="navbar-item"><Link style={{ textDecoration: 'none' }} to="/contact" className="nav-link"><h3>Contact</h3></Link></li>
         </ul>
         </div>
-    </nav>
     );
   }
 }
