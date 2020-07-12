@@ -39,11 +39,11 @@ h3{
 }
 
 .home-image {
-    position: relative;
-    width: auto;
-    height: 120px;
-    display: flex;
-    margin: auto;
+  position: relative;
+  width: auto;
+  height: 120px;
+  display: flex;
+  margin: auto;
 }
 
 /* resize images */
@@ -86,7 +86,6 @@ h3{
 .navbar.active {
   background-color: #4CAF50;
 }
-
 
 .footer{
   overflow: hidden;
@@ -160,6 +159,16 @@ h3{
     margin-left: -150px;
   }
 }
+
+.portfolio{
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-text{
+  top: 0;
+}
+
 
 /* If the viewing area is bigger than 768px and less than 1023px*/
 /* font sizing for ipads */
