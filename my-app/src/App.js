@@ -22,6 +22,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <div className="simple-trans-main">
         {transitions.map(({ item, props, key}) => (
           <animated.div key={key} style={props}>
             <Switch location={item}>
@@ -32,6 +33,7 @@ function App() {
             </Switch>
           </animated.div>
         ))}
+      </div>
       <Footer/>
     </>
   );
