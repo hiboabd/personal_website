@@ -4,6 +4,10 @@ import './App.css';
 import Home from "./components/home";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import About from "./components/about";
+import Portfolio from "./components/portfolio";
+import Contact from "./components/contact";
+
 
 function App() {
 
@@ -11,6 +15,9 @@ function App() {
     <Router>
       <Navbar/>
       <Route path="/" exact component={Home}/>
+      <Route path="/about" exact component={About}/>
+      <Route path="/portfolio" exact component={Contact}/>
+      <Route path="/contact" exact component={Portfolio}/>
       <Footer/>
     </Router>
   );
