@@ -68,6 +68,7 @@ h3{
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .navbar-item {
@@ -141,22 +142,22 @@ h3{
   }
 
   .home-image {
-      position: relative;
-      width: auto;
-      height: 260px;
-      display: flex;
-      margin: auto;
+    position: relative;
+    width: auto;
+    height: 260px;
+    display: flex;
+    margin: auto;
   }
 
   /* resize images */
   .home-image img {
-      position: absolute;
-      width: auto;
-      height: 100%;
-      border-radius: 50%;
-      margin: auto;
-      left: 50%;
-      margin-left: -150px;
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    margin: auto;
+    left: 50%;
+    margin-left: -150px;
   }
 }
 
@@ -176,21 +177,203 @@ h3{
   }
 
   .home-image {
-      position: relative;
-      width: auto;
-      height: 200px;
-      display: flex;
-      margin: auto;
+    position: relative;
+    width: auto;
+    height: 200px;
+    display: flex;
+    margin: auto;
   }
 
   /* resize images */
   .home-image img {
-      position: absolute;
-      width: auto;
-      height: 100%;
-      border-radius: 50%;
-      margin: auto;
-      left: 50%;
-      margin-left: -100px;
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    margin: auto;
+    left: 50%;
+    margin-left: -100px;
+  }
+  .footer{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    left: 0; /* Position navbar to start at left hand corner of page*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+  }
+
+  .footer img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    margin-left: -20px;
+  }
+
+  .footer-item {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* If the viewing area is bigger than 320px and less than 413px*/
+/* font sizing for mobile phones */
+@media screen and (min-width: 320px) and (max-width: 413px){
+  h1{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+  p{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .home-image {
+    position: relative;
+    width: auto;
+    height: 100px;
+    display: flex;
+    margin: auto;
+  }
+
+  /* resize images */
+  .home-image img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    margin: auto;
+    left: 50%;
+    margin-left: -50px;
+  }
+
+  .navbar-item {
+    display:inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+
+  .footer{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    left: 0; /* Position navbar to start at left hand corner of page*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+  }
+
+  .footer img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    margin-left: -20px;
+  }
+
+  .footer-item {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* If the viewing area is bigger than 414px and less than 767px*/
+/* font sizing for mobile phones */
+@media screen and (min-width: 414px) and (max-width: 767px){
+  h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+
+  p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .home-image {
+    position: relative;
+    width: auto;
+    height: 100px;
+    display: flex;
+    margin: auto;
+  }
+
+  /* resize images */
+  .home-image img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    margin: auto;
+    left: 50%;
+    margin-left: -50px;
+  }
+
+  .navbar-item {
+    display:inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+
+  .footer{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    left: 0; /* Position navbar to start at left hand corner of page*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+  }
+
+  .footer img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    margin-left: -20px;
+  }
+
+  .footer-item {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
