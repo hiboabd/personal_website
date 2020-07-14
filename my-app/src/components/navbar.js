@@ -9,7 +9,7 @@ export default class MyNavbar extends Component {
   render(){
 
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" fixed="top">
           <Navbar.Brand href="/">Home</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/about">About Me</Nav.Link>
