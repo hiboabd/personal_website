@@ -17,9 +17,63 @@ body{
 
 }
 
+.card-deck {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  h3 {
+    font-size: 3vh;
+  }
+
+  .card-deck {
+    display: inline;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h3 {
+    font-size: 3vh;
+  }
+
+  .card-deck {
+    display: inline;
+  }
+
+  .card-deck .card {
+    margin-bottom: 30px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .portfolio-text{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+}
+
 .card-img-top {
-  height: 300px;
-  width: auto;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -65,4 +119,10 @@ h3{
 .portfolio-text{
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* If the viewing area is less than 1024px */
+/* less than ipad pro */
+@media screen and (max-width: 1024px) {
+
 }

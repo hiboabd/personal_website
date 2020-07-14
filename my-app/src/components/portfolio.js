@@ -17,7 +17,7 @@ function Portfolio() {
         <h3>  Check out my Github profile to see more. </h3>
       </div>
       <>
-      <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
+      <CardDeck>
         <Card bg='info'>
           <Card.Header>This website!</Card.Header>
           <Card.Img variant="top" src={image} />
@@ -49,8 +49,7 @@ function Portfolio() {
           </Card.Body>
         </Card>
       </CardDeck>
-      <br/>
-      <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
+      <CardDeck>
         <Card bg='info'>
           <Card.Header>Daily Guardian</Card.Header>
           <Card.Img variant="top" src={dailyguardian} />
