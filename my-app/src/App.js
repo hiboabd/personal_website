@@ -4,7 +4,7 @@ import {Switch, Route, useLocation} from 'react-router-dom';
 import './App.css';
 import Home from "./components/home";
 import MyNavbar from "./components/navbar";
-import Footer from "./components/footer";
+// import Footer from "./components/footer";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
@@ -34,7 +34,6 @@ function App() {
           </animated.div>
         ))}
       </div>
-      <Footer/>
     </>
   );
 }
