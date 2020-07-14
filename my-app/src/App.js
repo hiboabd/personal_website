@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <MyNavbar/>
-      <div className="simple-trans-main">
+      <div className="main-container">
         {transitions.map(({ item, props, key}) => (
           <animated.div key={key} style={props}>
             <Switch location={item}>

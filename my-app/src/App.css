@@ -83,7 +83,7 @@ body{
   border: none;
 }
 
-.simple-trans-main > div {
+.main-container > div {
   padding-left: 5%;
   padding-right: 5%;
   position: relative;
