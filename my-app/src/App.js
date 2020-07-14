@@ -4,7 +4,7 @@ import {Switch, Route, useLocation} from 'react-router-dom';
 import './App.css';
 import Home from "./components/home";
 import MyNavbar from "./components/navbar";
-// import Footer from "./components/footer";
+import Skills from "./components/skills";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
@@ -28,6 +28,7 @@ function App() {
             <Switch location={item}>
               <Route path="/" exact component={Home}/>
               <Route path="/about" exact component={About}/>
+              <Route path="/skills" exact component={Skills}/>
               <Route path="/portfolio" exact component={Portfolio}/>
               <Route path="/contact" exact component={Contact}/>
             </Switch>
