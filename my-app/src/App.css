@@ -88,35 +88,7 @@ h3{
     margin-left: -70px;
 }
 
-.navbar{
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  left: 0; /* Position navbar to start at left hand corner of page*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
 
-.navbar-item {
-  display:inline-block;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-/* Add a background color on mouse-over */
-.navbar:hover {
-  background-color: #B56576;
-}
-
-/* Style the current/active link */
-.navbar.active {
-  background-color: #4CAF50;
-}
 
 .footer{
   overflow: hidden;

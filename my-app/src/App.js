@@ -3,7 +3,7 @@ import {useTransition, animated } from 'react-spring';
 import {Switch, Route, useLocation} from 'react-router-dom';
 import './App.css';
 import Home from "./components/home";
-import Navbar from "./components/navbar";
+import MyNavbar from "./components/navbar";
 import Footer from "./components/footer";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Navbar/>
+      <MyNavbar/>
       <div className="simple-trans-main">
         {transitions.map(({ item, props, key}) => (
           <animated.div key={key} style={props}>
