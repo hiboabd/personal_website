@@ -89,45 +89,6 @@ h3{
 }
 
 
-
-.footer{
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  bottom: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  left: 0; /* Position navbar to start at left hand corner of page*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.footer img{
-  position: absolute;
-  width: auto;
-  height: 100%;
-  border-radius: 50%;
-  top: 0;
-  margin-left: -20px;
-}
-
-.footer-item {
-  display:inline-block;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-/* Add a background color on mouse-over */
-.footer li:hover {
-  background-color: #B56576;
-}
-
-/* Style the current/active link */
-.footer.active {
-  background-color: #4CAF50;
-}
-
 .row {
   margin: 8px -16px;
 }
