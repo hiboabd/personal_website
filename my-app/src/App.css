@@ -17,7 +17,17 @@ body{
 
 }
 
+.card-img-top {
+  height: 300px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
+.card-header {
+  text-align: center;
+  border: none;
+}
 
 .simple-trans-main > div {
   padding-left: 50px;
