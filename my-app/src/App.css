@@ -13,13 +13,13 @@ body{
   padding-top: 70px;
 }
 
-#root {
-
-}
-
 .card-deck {
   display: flex;
   flex-direction: row;
+}
+
+.card-deck .card {
+  margin-bottom: 30px;
 }
 
 
@@ -119,10 +119,4 @@ h3{
 .portfolio-text{
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-/* If the viewing area is less than 1024px */
-/* less than ipad pro */
-@media screen and (max-width: 1024px) {
-
 }
