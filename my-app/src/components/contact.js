@@ -15,6 +15,19 @@ class Contact extends React.Component {
     }
   }
 
+  handleChange = (event) => {
+
+    const target = event.target;
+    const name = target.name;
+    const value = target.value;
+
+    this.setState({
+      [name]: value
+    });
+  };
+
+
+
 render () {
   return (
     <div className="contact-page">
@@ -23,20 +36,25 @@ render () {
         <h3> Send me a message! </h3>
       </div>
       <div className="contact-form">
-        <Form>
+        <Form onSubmit={this.handleSubmit}>
           <Form.Group controlId="formBasicText">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter name" value={this.state.name} onChange={this.handleChange} />
+            <Form.Control
+                name="name"
+                type="text"
+                placeholder="Enter name"
+                value={this.state.name}
+                onChange={this.handleChange} />
           </Form.Group>
 
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" value={this.state.email} onChange={this.handleChange} />
+            <Form.Control name="email" type="email" placeholder="Enter email" value={this.state.email} onChange={this.handleChange} />
           </Form.Group>
 
           <Form.Group controlId="exampleForm.ControlTextarea1">
             <Form.Label>Message</Form.Label>
-            <Form.Control as="textarea" rows="5" placeholder="Enter message" value={this.state.message} onChange={this.handleChange}/>
+            <Form.Control name="message" as="textarea" rows="5" placeholder="Enter message" value={this.state.message} onChange={this.handleChange}/>
           </Form.Group>
 
           <Button variant="primary" type="submit" disabled={this.state.disabled}>
