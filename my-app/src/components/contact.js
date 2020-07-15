@@ -26,7 +26,13 @@ class Contact extends React.Component {
     });
   };
 
+  handleSubmit = (event) => {
+    event.preventDefault();
 
+    this.setState({
+        disabled: true
+    });
+  };
 
 render () {
   return (
@@ -61,8 +67,8 @@ render () {
             Submit
           </Button>
 
-          {this.state.emailSent === true && <p className="d-inline-success-msg">Email Sent</p>}
-          {this.state.emailSent === false && <p className="d-inline-err-msg">Oops! Email Not Sent!</p>}
+          {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
+          {this.state.emailSent === false && <p className="d-inline err-msg">Oops! Email Not Sent!</p>}
         </Form>
       </div>
     </div>
