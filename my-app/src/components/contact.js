@@ -38,9 +38,13 @@ render () {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows="5" placeholder="Enter message" value={this.state.message} onChange={this.handleChange}/>
           </Form.Group>
+
           <Button variant="primary" type="submit" disabled={this.state.disabled}>
             Submit
           </Button>
+
+          {this.state.emailSent === true && <p className="d-inline-success-msg">Email Sent</p>}
+          {this.state.emailSent === false && <p className="d-inline-err-msg">Oops! Email Not Sent!</p>}
         </Form>
       </div>
     </div>
