@@ -11,7 +11,7 @@ body{
 
 #root {
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: auto;
 }
 
 .card-deck {
@@ -37,13 +37,12 @@ body{
 }
 
 .about{
+  overflow: hidden;
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 30% 70%;
-}
-
-.about p {
-
+  grid-template-rows: 70% 30%;
+  height: 80vh;
+  max-height: 100vh;
 }
 
 .about-text {
@@ -51,6 +50,7 @@ body{
   grid-column-end: 3;
   grid-row-start: 1;
   text-align: right;
+  align-self: center;
 }
 
 .about-text2 {
@@ -146,8 +146,6 @@ body{
   max-width: 100vw;
   padding-left: 5%;
   padding-right: 5%;
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,19 +155,45 @@ body{
 }
 
 h1{
-  text-align: center;
   color: white;
 }
 
 p{
-  text-align: center;
   color: white;
 }
 
 h3{
+  color: white;
+}
+
+.portfolio, .contact-text h1{
   text-align: center;
   color: white;
 }
+
+.portfolio, .contact-text p{
+  text-align: center;
+  color: white;
+}
+
+.portfolio, .contact-text h3{
+  text-align: center;
+  color: white;
+}
+
+.about-text p{
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  align-self: center;
+}
+
+.about-text2 p{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
 
 .dynamic-text{
   margin-top: 30px;
