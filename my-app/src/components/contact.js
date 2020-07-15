@@ -26,7 +26,7 @@ render () {
         <Form>
           <Form.Group controlId="formBasicPassword">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Password" />
+            <Form.Control type="text" placeholder="Enter name" />
           </Form.Group>
 
           <Form.Group controlId="formBasicEmail">
