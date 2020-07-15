@@ -45,6 +45,9 @@ body{
     padding-right: 10px;
   }
 
+  .contact-page {
+    width: 70%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -71,6 +74,10 @@ body{
   .portfolio-text{
     margin-top: 50px;
     margin-bottom: 30px;
+  }
+
+  .contact-page {
+    width: 70%;
   }
 
 }
@@ -131,4 +138,8 @@ h3{
 
 .contact-text{
   margin-bottom: 30px;
+}
+
+.contact-page {
+  width: 50%;
 }
