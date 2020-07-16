@@ -30,10 +30,10 @@ function Skills() {
       </div>
       <div className="lang-container">
         <h3> Languages </h3>
-        <img src={js} alt="JavaScript" className="JavaScript" />
-        <img src={html} alt="HTML" className="HTML" />
-        <img src={css} alt="CSS" className="CSS" />
-        <img src={ruby} alt="Ruby" className="Ruby"/>
+        <img src={js} alt="JavaScript" />
+        <img src={html} alt="HTML" />
+        <img src={css} alt="CSS"/>
+        <img src={ruby} alt="Ruby"/>
       </div>
       <div className="fw-container">
         <h3> Frameworks </h3>
