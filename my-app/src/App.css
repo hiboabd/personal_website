@@ -261,3 +261,52 @@ h3{
   color: red;
   padding: 10px 15px;
 }
+
+/* Skills page */
+
+.skills{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 20% 80%;
+  height: 80vh;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.skills-header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  align-self: center;
+  text-align: center;
+}
+
+.lang-container {
+  border-style: solid;
+  border-color: blue;
+  border-radius: 50%;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+}
+
+.fw-container {
+  border-style: solid;
+  border-color: green;
+  border-radius: 50%;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+}
+
+.other-container {
+  border-style: solid;
+  border-color: red;
+  border-radius: 50%;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+}
