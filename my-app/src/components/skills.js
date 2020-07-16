@@ -8,7 +8,6 @@ import ruby from '../images/Ruby.jpeg'
 import express from '../images/node-express.png'
 import react from '../images/React.jpeg'
 import bootstrap from '../images/Bootstrap.png'
-import sinatra from '../images/Sinatra.png'
 
 import rspec from '../images/Rspec.png'
 import jasmine from '../images/Jasmine.png'
