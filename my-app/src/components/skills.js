@@ -1,5 +1,8 @@
 import React from 'react';
-
+import js from '../images/JavaScript.png'
+import html from '../images/HTML.png'
+import css from '../images/CSS.png'
+import ruby from '../images/Ruby.jpeg'
 
 function Skills() {
 
@@ -11,6 +14,10 @@ function Skills() {
       </div>
       <div className="lang-container">
         <h3> Languages </h3>
+        <img src={js} alt="JavaScript" />
+        <img src={html} alt="HTML" />
+        <img src={css} alt="CSS" />
+        <img src={ruby} alt="Ruby" />
       </div>
       <div className="fw-container">
         <h3> Frameworks </h3>
