@@ -330,6 +330,33 @@ h3{
   left: 3%;
 }
 
+.fw-container img{
+  position: relative;
+  height: 50%;
+  width: auto;
+  margin-right: 7%;
+  top: 15%;
+  left: 3%;
+}
+
+.testing-container img{
+  position: relative;
+  height: 50%;
+  width: auto;
+  margin-right: 7%;
+  top: 15%;
+  left: 3%;
+}
+
+.tools-container img{
+  position: relative;
+  height: 50%;
+  width: auto;
+  margin-right: 7%;
+  top: 15%;
+  left: 3%;
+}
+
 .lang-container h3{
   position: relative;
   top: 5%;
