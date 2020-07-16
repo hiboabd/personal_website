@@ -10,7 +10,7 @@ body{
 }
 
 #root {
-  min-width: 100vw;
+  min-width: auto;
   min-height: auto;
 }
 
@@ -40,23 +40,37 @@ body{
   overflow: hidden;
   display: grid;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 70% 30%;
+  grid-template-rows: 15% 60% 25%;
   height: 80vh;
   max-height: 100vh;
+}
+
+.about-header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  align-self: flex-start;
+}
+
+.about-image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  align-self: center;
 }
 
 .about-text {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 1;
-  text-align: right;
+  grid-row-start: 2;
   align-self: center;
 }
 
 .about-text2 {
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row-start: 2;
+  grid-row-start: 3;
+  align-self: flex-end;
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
@@ -181,17 +195,22 @@ h3{
   color: white;
 }
 
+.about h1{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
 .about-text p{
-  text-align: right;
+  text-align: left;
   color: white;
   font-size: 18px;
-  align-self: center;
 }
 
 .about-text2 p{
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 

@@ -4,6 +4,9 @@ import hibo from '../images/Hibo_Abdilaahi.jpeg'
 function About() {
   return (
     <div className="about">
+      <div className="about-header">
+        <h1> About Me </h1>
+      </div>
       <div className="about-image">
         <img src={hibo} alt="Hibo Abdilaahi" />
       </div>
