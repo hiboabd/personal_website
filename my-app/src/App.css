@@ -289,6 +289,7 @@ h3{
   width: 90%;
   align-self: center;
   justify-self: center;
+  text-align: center;
 }
 
 .fw-container {
@@ -299,9 +300,10 @@ h3{
   width: 90%;
   align-self: center;
   justify-self: center;
+  text-align: center;
 }
 
-.other-container {
+.tools-container {
   border-style: solid;
   border-color: red;
   border-radius: 50%;
@@ -309,4 +311,20 @@ h3{
   width: 90%;
   align-self: center;
   justify-self: center;
+  text-align: center;
+}
+
+.lang-container h3{
+  position: relative;
+  top: 10%;
+}
+
+.fw-container h3{
+  position: relative;
+  top: 10%;
+}
+
+.tools-container h3{
+  position: relative;
+  top: 10%;
 }

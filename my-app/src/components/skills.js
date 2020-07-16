@@ -9,15 +9,15 @@ function Skills() {
         <h1> Skills </h1>
         <h3> I have experience with the following technologies </h3>
       </div>
-        <div className="lang-container">
-          
-        </div>
-        <div className="fw-container">
-
-        </div>
-        <div className="other-container">
-
-        </div>
+      <div className="lang-container">
+        <h3> Languages </h3>
+      </div>
+      <div className="fw-container">
+        <h3> Frameworks </h3>
+      </div>
+      <div className="tools-container">
+        <h3> Tools </h3>
+      </div>
     </div>
   );
 }
