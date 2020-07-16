@@ -267,8 +267,8 @@ h3{
 .skills{
   overflow: hidden;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 20% 80%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 40% 40%;
   height: 80vh;
   max-height: 100vh;
   width: 100%;
@@ -276,7 +276,7 @@ h3{
 
 .skills-header {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   align-self: center;
   text-align: center;
 }
@@ -284,98 +284,68 @@ h3{
 .lang-container {
   border-style: solid;
   border-color: blue;
-  border-radius: 25%;
   height: 90%;
   width: 90%;
   align-self: center;
   justify-self: center;
   text-align: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 35% 35%;
 }
 
 .fw-container {
   border-style: solid;
   border-color: green;
-  border-radius: 25%;
   height: 90%;
   width: 90%;
   align-self: center;
   justify-self: center;
   text-align: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 35% 35%;
+}
+
+.testing-container {
+  border-style: solid;
+  border-color: pink;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
 }
 
 .tools-container {
   border-style: solid;
   border-color: red;
-  border-radius: 25%;
   height: 90%;
   width: 90%;
   align-self: center;
   justify-self: center;
   text-align: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 20% 35% 35%;
 }
 
 .lang-container img{
   position: relative;
-  height: 100px;
-  width: 100px;
-}
-
-
-.JavaScript{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  align-self: center;
-  justify-self: center;
-}
-
-.HTML {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  align-self: center;
-  justify-self: center;
-}
-
-.CSS {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  align-self: center;
-  justify-self: center;
-}
-
-
-.Ruby {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  align-self: center;
-  justify-self: center;
+  height: 50%;
+  width: auto;
+  margin-right: 7%;
+  top: 15%;
+  left: 3%;
 }
 
 .lang-container h3{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  align-self: center;
-  top: 10%;
+  position: relative;
+  top: 5%;
 }
 
 .fw-container h3{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  align-self: center;
-  top: 10%;
+  position: relative;
+  top: 5%;
+}
+
+.testing-container h3{
+  position: relative;
+  top: 5%;
 }
 
 .tools-container h3{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  align-self: center;
-  top: 10%;
+  position: relative;
+  top: 5%;
 }
