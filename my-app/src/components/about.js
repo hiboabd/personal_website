@@ -20,19 +20,9 @@ function About() {
 
         <p> Four months later, I've learnt the ins and outs of front and back end
         web development as well as the principles of object oriented programming. </p>
-
-        <p> I love to
-          ... turn an idea into a product
-          ... build things anybody can use
-          ... inspire others to take up coding </p>
-
-        <p> I'm ready to contribute my skills and improve upon them in a
-        professional setting. </p>
       </div>
       <div className="about-text2">
-        <p> Are you hiring or know somebody that is? If so, contact me! </p>
-
-        <p> Or... take a peek at some of my favourites projects on my portfolio page! </p>
+        <p> Want to know more? Here's where you can find me! </p>
       </div>
     </div>
   )
