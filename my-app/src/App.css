@@ -284,29 +284,7 @@ h3{
 .lang-container {
   border-style: solid;
   border-color: blue;
-  border-radius: 50%;
-  height: 90%;
-  width: 90%;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-}
-
-.fw-container {
-  border-style: solid;
-  border-color: green;
-  border-radius: 50%;
-  height: 90%;
-  width: 90%;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-}
-
-.tools-container {
-  border-style: solid;
-  border-color: red;
-  border-radius: 50%;
+  border-radius: 25%;
   height: 90%;
   width: 90%;
   align-self: center;
@@ -314,28 +292,90 @@ h3{
   text-align: center;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: 20% 35% 35%;
+}
+
+.fw-container {
+  border-style: solid;
+  border-color: green;
+  border-radius: 25%;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 35% 35%;
+}
+
+.tools-container {
+  border-style: solid;
+  border-color: red;
+  border-radius: 25%;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 35% 35%;
 }
 
 .lang-container img{
   position: relative;
-  top: 30%;
   height: 100px;
   width: 100px;
 }
 
 
+.JavaScript{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.HTML {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.CSS {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+
+.Ruby {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: center;
+  justify-self: center;
+}
+
 .lang-container h3{
-  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-self: center;
   top: 10%;
 }
 
 .fw-container h3{
-  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-self: center;
   top: 10%;
 }
 
 .tools-container h3{
-  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-self: center;
   top: 10%;
 }
