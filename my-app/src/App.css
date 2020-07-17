@@ -486,4 +486,113 @@ h3{
     font-size: 14px;
   }
 
+  .skills{
+    overflow: scroll;
+    display: grid;
+    grid-template-rows: 10% 20% 20% 20% 20%;
+    height: 100vh;
+    width: 100%;
+    grid-row-gap: 2%;
+    margin-bottom: 10%;
+  }
+
+  .skills-header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    text-align: center;
+  }
+
+  .lang-container {
+    border-style: solid;
+    border-color: blue;
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .fw-container {
+    border-style: solid;
+    border-color: green;
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .testing-container {
+    border-style: solid;
+    border-color: pink;
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .tools-container {
+    border-style: solid;
+    border-color: red;
+    height: 90%;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+
+  .lang-container img{
+    position: relative;
+    height: 50%;
+    width: auto;
+    margin-right: 7%;
+    top: 15%;
+  }
+
+  .fw-container img{
+    position: relative;
+    height: 50%;
+    width: auto;
+    margin-right: 7%;
+    top: 15%;
+    left: 3%;
+  }
+
+  .testing-container img{
+    position: relative;
+    height: 50%;
+    width: auto;
+    margin-right: 7%;
+    top: 15%;
+    left: 3%;
+  }
+
+  .tools-container img{
+    position: relative;
+    height: 50%;
+    width: auto;
+    margin-right: 3%;
+    top: 15%;
+  }
+
 }
