@@ -38,6 +38,7 @@ render () {
   return (
     <div className="contact-page">
       <div className="contact-text">
+        <h1> Contact </h1>
         <h3> Want to get in touch? </h3>
         <h3> Send me a message! </h3>
       </div>

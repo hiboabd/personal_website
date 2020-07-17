@@ -13,6 +13,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div className="portfolio-text">
+        <h1>  Portfolio </h1>
         <h3>  These are some of my favorite projects. </h3>
         <h3>  Check out my Github profile to see more. </h3>
       </div>
