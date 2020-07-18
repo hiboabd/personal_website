@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-color: #000000;
+  background-color: #659DBD;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   padding-top: 70px;
@@ -90,7 +90,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   will-change: transform, opacity;
   text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
 }
@@ -109,34 +108,28 @@ h3{
 
 .portfolio, .contact-text h1{
   text-align: center;
-  color: white;
 }
 
 .portfolio, .contact-text p{
   text-align: center;
-  color: white;
 }
 
 .portfolio, .contact-text h3{
   text-align: center;
-  color: white;
 }
 
 .about h1{
   text-align: center;
-  color: white;
   font-size: 50px;
 }
 
 .about-text p{
   text-align: left;
-  color: white;
   font-size: 18px;
 }
 
 .about-text2 p{
   text-align: center;
-  color: white;
   font-size: 24px;
 }
 
@@ -293,7 +286,6 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     will-change: transform, opacity;
     text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
   }
@@ -466,7 +458,6 @@ h3{
 
   .about-text p{
     text-align: center;
-    color: white;
     font-size: 12px;
   }
 }
@@ -482,7 +473,6 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     will-change: transform, opacity;
     text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
   }
@@ -540,7 +530,6 @@ h3{
 
   .about-text p{
     text-align: right;
-    color: white;
     font-size: 14px;
   }
 
