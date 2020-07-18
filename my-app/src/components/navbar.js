@@ -8,11 +8,11 @@ export default class MyNavbar extends Component {
   render(){
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-          <Navbar.Brand href="/">Home</Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark" fixed="top">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="ml-auto">
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/skills">Skills</Nav.Link>
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
