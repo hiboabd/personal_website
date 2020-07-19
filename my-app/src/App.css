@@ -3,6 +3,7 @@
   padding: 0;
 }
 body{
+  font-family: 'Roboto', sans-serif;
   background-color: #659DBD;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
@@ -32,7 +33,6 @@ body{
 /* font styling */
 
 h1{
-  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -126,6 +126,7 @@ h3{
 .card-header {
   text-align: center;
   border: none;
+  color: white;
 }
 
 .portfolio, .contact-text h1{
@@ -153,6 +154,7 @@ h3{
 
 .dynamic-text{
   margin-top: 30px;
+  font-weight: lighter;
 }
 
 .home-container {
@@ -179,6 +181,10 @@ h3{
 .err-msg {
   color: red;
   padding: 10px 15px;
+}
+
+.form-label {
+  color: white;
 }
 
 /* Skills page */
