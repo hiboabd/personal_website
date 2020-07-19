@@ -367,8 +367,9 @@ h3{
   }
 
   .lang-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: blue;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
@@ -381,8 +382,9 @@ h3{
   }
 
   .fw-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: green;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
@@ -395,8 +397,9 @@ h3{
   }
 
   .testing-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: pink;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
@@ -409,8 +412,9 @@ h3{
   }
 
   .tools-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: red;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
@@ -608,8 +612,9 @@ h3{
   }
 
   .lang-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: blue;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
@@ -622,8 +627,9 @@ h3{
   }
 
   .fw-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: green;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
@@ -636,8 +642,9 @@ h3{
   }
 
   .testing-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: pink;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
@@ -650,8 +657,9 @@ h3{
   }
 
   .tools-container {
+    background-color: rgba(101,189,151,0.5);
     border-style: solid;
-    border-color: red;
+    border-color: rgba(255,255,255,0.75);
     height: 90%;
     width: 90%;
     align-self: center;
