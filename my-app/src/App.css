@@ -106,6 +106,10 @@ h3{
 
 /* portfolio page styling */
 
+.card-text{
+  font-size: 18px;
+}
+
 .card-deck {
   display: flex;
   flex-direction: row;
