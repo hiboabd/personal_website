@@ -3,10 +3,10 @@ import React from 'react';
 import js from '../images/JavaScript.png'
 import html from '../images/HTML.png'
 import css from '../images/CSS.png'
-import ruby from '../images/Ruby.jpeg'
+import ruby from '../images/Ruby.png'
 
 import express from '../images/node-express.png'
-import react from '../images/React.jpeg'
+import react from '../images/React.png'
 import bootstrap from '../images/Bootstrap.png'
 
 import rspec from '../images/Rspec.png'
@@ -15,7 +15,7 @@ import jest from '../images/Jest.png'
 
 import github from '../images/Github.png'
 import postgresql from '../images/PostgreSQL.png'
-import travisCI from '../images/travis-ci.jpg'
+import travisCI from '../images/travis-ci.png'
 import netlify from '../images/Netlify.png'
 
 function Skills() {
