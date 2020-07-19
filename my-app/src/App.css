@@ -34,6 +34,7 @@ body{
 
 h1{
   color: white;
+  font-size: 70px;
 }
 
 p{
@@ -155,12 +156,13 @@ h3{
 .dynamic-text{
   margin-top: 30px;
   font-weight: lighter;
+  font-size: 30px;
 }
 
 .home-container {
   display: grid;
   height: 80vh;
-  width: 80vh;
+  width: 100vh;
 }
 
 /* contact page styling */
