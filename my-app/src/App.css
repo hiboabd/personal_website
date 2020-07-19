@@ -94,8 +94,14 @@ body{
   text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
 }
 
+.home-text{
+  text-align: center;
+}
+
 h1{
+  font-family: 'Roboto', sans-serif;
   color: white;
+  font-weight: 900;
 }
 
 p{
