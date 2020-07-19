@@ -230,6 +230,7 @@ h3{
   align-self: center;
   justify-self: center;
   text-align: center;
+  display: grid;
 }
 
 .fw-container {
@@ -265,13 +266,15 @@ h3{
   text-align: center;
 }
 
-.lang-container img{
-  position: relative;
-  height: 50%;
-  width: auto;
+.lang-images {
+  align-self: flex-start;
+  margin-left: 5%;
+}
+
+.lang-images img {
+  height: auto;
+  width: 15%;
   margin-right: 7%;
-  top: 15%;
-  left: 3%;
 }
 
 .fw-container img{
@@ -301,8 +304,7 @@ h3{
 }
 
 .lang-container h3{
-  position: relative;
-  top: 5%;
+  align-self: center;
 }
 
 .fw-container h3{
