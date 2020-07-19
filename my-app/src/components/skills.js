@@ -28,7 +28,7 @@ function Skills() {
       </div>
       <div className="lang-container">
         <h3> Languages </h3>
-        <div className="lang-images">
+        <div className="skills-images">
           <img src={js} alt="JavaScript" />
           <img src={html} alt="HTML" />
           <img src={css} alt="CSS"/>
@@ -37,22 +37,28 @@ function Skills() {
       </div>
       <div className="fw-container">
         <h3> Frameworks </h3>
-        <img src={express} alt="Express" />
-        <img src={react} alt="React" />
-        <img src={bootstrap} alt="Bootsrap"/>
+        <div className="skills-images">
+          <img src={express} alt="Express" />
+          <img src={react} alt="React" />
+          <img src={bootstrap} alt="Bootsrap"/>
+        </div>
       </div>
       <div className="testing-container">
         <h3> Testing </h3>
-        <img src={rspec} alt="RSpec" />
-        <img src={jasmine} alt="Jasmine" />
-        <img src={jest} alt="Jest"/>
+        <div className="skills-images">
+          <img src={rspec} alt="RSpec" />
+          <img src={jasmine} alt="Jasmine" />
+          <img src={jest} alt="Jest"/>
+        </div>
       </div>
       <div className="tools-container">
         <h3> Tools </h3>
-        <img src={github} alt="Github" />
-        <img src={postgresql} alt="Mongodb" />
-        <img src={netlify} alt="Netlify"/>
-        <img src={travisCI} alt="TravisCI"/>
+        <div className="skills-images">
+          <img src={github} alt="Github" />
+          <img src={postgresql} alt="Mongodb" />
+          <img src={netlify} alt="Netlify"/>
+          <img src={travisCI} alt="TravisCI"/>
+        </div>
       </div>
     </div>
   );

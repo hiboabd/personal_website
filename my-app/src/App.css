@@ -242,6 +242,7 @@ h3{
   align-self: center;
   justify-self: center;
   text-align: center;
+  display: grid;
 }
 
 .testing-container {
@@ -253,6 +254,7 @@ h3{
   align-self: center;
   justify-self: center;
   text-align: center;
+  display: grid;
 }
 
 .tools-container {
@@ -264,43 +266,30 @@ h3{
   align-self: center;
   justify-self: center;
   text-align: center;
+  display: grid;
 }
 
-.lang-images {
+.skills-images {
   align-self: flex-start;
   margin-left: 5%;
 }
 
-.lang-images img {
+.skills-images img {
   height: auto;
   width: 15%;
   margin-right: 7%;
 }
 
 .fw-container img{
-  position: relative;
-  height: 50%;
-  width: auto;
-  margin-right: 7%;
-  top: 15%;
-  left: 3%;
+  width: 20%;
 }
 
 .testing-container img{
-  position: relative;
-  height: 50%;
-  width: auto;
-  margin-right: 7%;
-  top: 15%;
-  left: 3%;
+  width: 20%;
 }
 
 .tools-container img{
-  position: relative;
-  height: 50%;
-  width: auto;
-  margin-right: 3%;
-  top: 15%;
+  width: 18%;
 }
 
 .lang-container h3{
@@ -308,18 +297,15 @@ h3{
 }
 
 .fw-container h3{
-  position: relative;
-  top: 5%;
+  align-self: center;
 }
 
 .testing-container h3{
-  position: relative;
-  top: 5%;
+  align-self: center;
 }
 
 .tools-container h3{
-  position: relative;
-  top: 5%;
+  align-self: center;
 }
 
 /* responsive design */
