@@ -34,7 +34,6 @@ body{
 h1{
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-weight: 900;
 }
 
 p{
@@ -149,10 +148,17 @@ h3{
 
 .home-text{
   text-align: center;
+  align-self: center;
 }
 
 .dynamic-text{
   margin-top: 30px;
+}
+
+.home-container {
+  display: grid;
+  height: 80vh;
+  width: 80vh;
 }
 
 /* contact page styling */
