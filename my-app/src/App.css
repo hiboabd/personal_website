@@ -154,6 +154,10 @@ h3{
   text-decoration: underline;
 }
 
+.portfolio-buttons .btn {
+  margin-bottom: 2%;
+}
+
 
 /* home page styling */
 

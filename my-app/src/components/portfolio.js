@@ -26,9 +26,10 @@ function Portfolio() {
             <Card.Text>
               Designed primarily using React and React-Boostrap.
             </Card.Text>
-            <Button href="https://github.com/hiboabd/personal_website" variant="light">Github Repo (front-end)</Button>{' '}
-            <br/>
-            <Button href="https://github.com/hiboabd/personal_website_backend" variant="dark">Github Repo (back-end)</Button>{' '}
+            <div className="portfolio-buttons">
+              <Button href="https://github.com/hiboabd/personal_website" variant="dark">Github Repo (front-end)</Button>{' '}
+              <Button href="https://github.com/hiboabd/personal_website_backend" variant="dark">Github Repo (back-end)</Button>{' '}
+            </div>
           </Card.Body>
         </Card>
         <Card bg='info'>
@@ -40,7 +41,7 @@ function Portfolio() {
               and CSS. Help Boris Johnson socially distance from passerbys and
               keep his infection rate under 1.
             </Card.Text>
-            <Button href="https://github.com/edmond-b/Covid_Game" variant="light">Github Repo</Button>{' '}
+            <Button href="https://github.com/edmond-b/Covid_Game" variant="dark">Github Repo</Button>{' '}
             <Button href="https://run-boris-run.netlify.app" variant="dark">Deployed site</Button>{' '}
           </Card.Body>
         </Card>
@@ -52,7 +53,7 @@ function Portfolio() {
               An AirBnB clone built as part of the Makers Academy week 6 group
               project, written in Ruby and utilising PostgreSQL.
             </Card.Text>
-            <Button href="https://github.com/edmond-b/Makersbnb" variant="light">Github Repo</Button>{' '}
+            <Button href="https://github.com/edmond-b/Makersbnb" variant="dark">Github Repo</Button>{' '}
           </Card.Body>
         </Card>
       </CardDeck>
@@ -66,7 +67,7 @@ function Portfolio() {
               articles daily for your convenience. Written in JavaScript and
               tested with my own testing framework.
             </Card.Text>
-            <Button href="https://github.com/hiboabd/daily_guardian" variant="light">Github Repo</Button>{' '}
+            <Button href="https://github.com/hiboabd/daily_guardian" variant="dark">Github Repo</Button>{' '}
             <Button href="https://daily-guardian.netlify.app" variant="dark">Deployed site</Button>{' '}
           </Card.Body>
         </Card>
@@ -78,7 +79,7 @@ function Portfolio() {
               An example of my process to approaching a technical problem,
               utilising TDD and good OO design skills.
             </Card.Text>
-            <Button href="https://github.com/hiboabd/BankTechTest" variant="light">Github Repo</Button>{' '}
+            <Button href="https://github.com/hiboabd/BankTechTest" variant="dark">Github Repo</Button>{' '}
           </Card.Body>
         </Card>
         <Card bg='info'>
@@ -89,7 +90,7 @@ function Portfolio() {
               A social media platform, similar to Facebook, built as part of the
               week 8-9 engineering project. Built using a MERN stack.
             </Card.Text>
-            <Button href="https://github.com/hiboabd/makers_acebook" variant="light">Github Repo</Button>{' '}
+            <Button href="https://github.com/hiboabd/makers_acebook" variant="dark">Github Repo</Button>{' '}
           </Card.Body>
         </Card>
       </CardDeck>
