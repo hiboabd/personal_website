@@ -1,6 +1,7 @@
 import React from 'react';
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import axios from 'axios';
 
 class Contact extends React.Component {
 
@@ -29,10 +30,32 @@ class Contact extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    this.setState({
-        disabled: true
-    });
+    axios({
+      method: "POST",
+      url:"https://hibo-abdilaahi-backend.herokuapp.com/new",
+      data: {
+        name: this.state.name,
+        email: this.state.email,
+        message: this.state.message
+      }
+    }).then((response)=>{
+      console.log(response)
+        if (response.data.msg === 'success'){
+            alert("Thank you! Your message was sent and I will be in touch as soon as possible");
+            this.resetForm()
+        }else if(response.data.msg === 'fail'){
+            alert("Unfortunately, your message failed to send. Please try again or email me at hiboabdilaahi@gmail.com")
+        }
+    })
   };
+
+  resetForm(){
+    this.setState({
+      name: '',
+      email: '',
+      message: ''
+    });
+  }
 
 render () {
   return (
@@ -66,9 +89,6 @@ render () {
           <Button variant="primary" type="submit" disabled={this.state.disabled}>
             Submit
           </Button>
-
-          {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-          {this.state.emailSent === false && <p className="d-inline err-msg">Oops! Email Not Sent!</p>}
         </Form>
       </div>
     </div>
