@@ -33,6 +33,7 @@ body{
 /* font styling */
 
 h1{
+  font-size: 50px;
   color: white;
 }
 
@@ -48,7 +49,7 @@ h3{
 
 .about-image img {
   max-width: 100vw;
-  width: 90%;
+  width: 80%;
   border-radius: 50%;
 }
 
@@ -110,7 +111,7 @@ h3{
 
 .about-text p{
   text-align: left;
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .about-text2 p{

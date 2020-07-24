@@ -28,7 +28,7 @@ function About() {
       <div className="about-text2">
         <p> Want to know more? Here's where you can find me! </p>
         <div className="about-text2-icons">
-          <img src={github} alt="GitHub" />
+          <img href="www.bbc.co.uk" src={github} alt="GitHub" />
           <img src={linkedin} alt="LinkedIn" />
           <img src={twitter} alt="Twitter" />
           <img src={devto} alt="Dev.to" />
