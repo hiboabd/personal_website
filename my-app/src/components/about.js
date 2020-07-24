@@ -1,5 +1,9 @@
 import React from 'react';
 import hibo from '../images/Hibo_Abdilaahi.jpeg'
+import github from '../images/Github.png'
+import twitter from '../images/Twitter.png'
+import linkedin from '../images/Linkedin.png'
+import devto from '../images/dev.png'
 
 function About() {
   return (
@@ -23,6 +27,12 @@ function About() {
       </div>
       <div className="about-text2">
         <p> Want to know more? Here's where you can find me! </p>
+        <div className="about-text2-icons">
+          <img src={github} alt="GitHub" />
+          <img src={linkedin} alt="LinkedIn" />
+          <img src={twitter} alt="Twitter" />
+          <img src={devto} alt="Dev.to" />
+        </div>
       </div>
     </div>
   )
