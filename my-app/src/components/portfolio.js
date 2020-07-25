@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../images/Homepage_mockup.png"
+import image from "../images/personal_website.png"
 import makersbnb from "../images/MakersBnb.png"
 import runboris from "../images/Run_Boris_Run.png"
 import dailyguardian from "../images/Daily_Guardian.png"
