@@ -224,7 +224,6 @@ h3{
 /* Skills page */
 
 .skills{
-  overflow: scroll;
   display: grid;
   grid-template-rows: 20% 80%;
   height: 80vh;
@@ -264,12 +263,23 @@ h3{
   height: auto;
   width: 40%;
   margin-right: 7%;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .skills-individual-images {
   display: grid;
   justify-items: center;
   align-items: center;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom {
+
+}
+
+.skills-individual-images:hover {
+  transform: scale(1.3); /* (130% zoom) */
 }
 
 /* responsive design */

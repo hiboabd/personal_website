@@ -30,7 +30,9 @@ function Skills() {
         <div className="skills-images">
 
           <div className="skills-individual-images">
-          <img src={js} alt="JavaScript" />
+          <div className="zoom">
+            <img src={js} alt="JavaScript" />
+          </div>
           </div>
 
           <div className="skills-individual-images">
@@ -76,7 +78,7 @@ function Skills() {
           <div className="skills-individual-images">
           <img src={travisCI} alt="TravisCI"/>
           </div>
-          
+
         </div>
       </div>
     </div>
