@@ -26,38 +26,56 @@ function Skills() {
         <h1> Skills </h1>
         <h3> I have experience with the following technologies </h3>
       </div>
-      <div className="lang-container">
-        <h3> Languages </h3>
+      <div className="skills-card">
         <div className="skills-images">
+
+          <div className="skills-individual-images">
           <img src={js} alt="JavaScript" />
+          </div>
+
+          <div className="skills-individual-images">
           <img src={html} alt="HTML" />
+          </div>
+          <div className="skills-individual-images">
           <img src={css} alt="CSS"/>
+          </div>
+          <div className="skills-individual-images">
           <img src={ruby} alt="Ruby"/>
-        </div>
-      </div>
-      <div className="fw-container">
-        <h3> Frameworks </h3>
-        <div className="skills-images">
+          </div>
+          <div className="skills-individual-images">
           <img src={express} alt="Express" />
+          </div>
+
+
+          <div className="skills-individual-images">
           <img src={react} alt="React" />
+          </div>
+          <div className="skills-individual-images">
           <img src={bootstrap} alt="Bootsrap"/>
-        </div>
-      </div>
-      <div className="testing-container">
-        <h3> Testing </h3>
-        <div className="skills-images">
+          </div>
+          <div className="skills-individual-images">
           <img src={rspec} alt="RSpec" />
+          </div>
+          <div className="skills-individual-images">
           <img src={jasmine} alt="Jasmine" />
+          </div>
+          <div className="skills-individual-images">
           <img src={jest} alt="Jest"/>
-        </div>
-      </div>
-      <div className="tools-container">
-        <h3> Tools </h3>
-        <div className="skills-images">
+          </div>
+
+
+          <div className="skills-individual-images">
           <img src={github} alt="Github" />
+          </div>
+          <div className="skills-individual-images">
           <img src={postgresql} alt="Mongodb" />
+          </div>
+          <div className="skills-individual-images">
           <img src={netlify} alt="Netlify"/>
+          </div>
+          <div className="skills-individual-images">
           <img src={travisCI} alt="TravisCI"/>
+          </div>
         </div>
       </div>
     </div>
