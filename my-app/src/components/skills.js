@@ -76,6 +76,7 @@ function Skills() {
           <div className="skills-individual-images">
           <img src={travisCI} alt="TravisCI"/>
           </div>
+          
         </div>
       </div>
     </div>
