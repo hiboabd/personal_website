@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home-container">
       <div className="home-text">
-          <h1> Hi, I'm Hibo Abdilaahi </h1>
+          <h1> HI, I'M HIBO ABDILAAHI. </h1>
           <div className="dynamic-text">
             <p>
               <Typical
