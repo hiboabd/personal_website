@@ -28,10 +28,18 @@ function About() {
       <div className="about-text2">
         <p> Want to know more? Here's where you can find me! </p>
         <div className="about-text2-icons">
-          <img src={github} alt="GitHub" />
-          <img src={linkedin} alt="LinkedIn" />
-          <img src={twitter} alt="Twitter" />
-          <img src={devto} alt="Dev.to" />
+          <a href="https://github.com/hiboabd">
+            <img src={github} alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/hibo-abdilaahi/">
+            <img src={linkedin} alt="LinkedIn" />
+          </a>
+          <a href="https://twitter.com/hibocodes">
+            <img src={twitter} alt="Twitter" />
+          </a>
+          <a href="https://dev.to/hiboabd">
+            <img src={devto} alt="Dev.to" />
+          </a>
         </div>
       </div>
     </div>
