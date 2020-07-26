@@ -22,6 +22,10 @@ function App() {
   return (
     <>
       <MyNavbar/>
+      <div class="eclipse1"></div>
+      <div class="eclipse2"></div>
+      <div class="eclipse3"></div>
+      <div class="eclipse4"></div>
       <div className="main-container">
         {transitions.map(({ item, props, key}) => (
           <animated.div key={key} style={props}>
