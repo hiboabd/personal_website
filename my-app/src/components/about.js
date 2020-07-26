@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card'
 import hibo from '../images/Hibo_Abdilaahi.jpeg'
 import github from '../images/Github.png'
 import twitter from '../images/Twitter.png'
@@ -26,7 +27,7 @@ function About() {
         web development as well as the principles of object oriented programming. </p>
       </div>
       <div className="about-text2">
-        <p> Want to know more? Here's where you can find me! </p>
+      <p> Want to know more? Here's where you can find me! </p>
         <div className="about-text2-icons">
           <a href="https://github.com/hiboabd">
             <img src={github} alt="GitHub" />

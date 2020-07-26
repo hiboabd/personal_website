@@ -4,7 +4,7 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-  background: rgba(47, 146, 237, 0.55);
+  background: #672559;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   padding-top: 70px;
@@ -28,48 +28,6 @@ body{
   align-items: center;
   will-change: transform, opacity;
   text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
-}
-
-/* background styling */
-
-.eclipse1 {
-  position: absolute;
-  width: 30vw;
-  height: 57vh;
-  left: 65%;
-  top: 15%;
-  border-radius: 50%;
-  background: #F37575;
-}
-
-.eclipse2 {
-  position: absolute;
-  width: 401px;
-  height: 394px;
-  left: 5%;
-  top: -25%;
-  border-radius: 50%;
-  background: #F37575;
-}
-
-.eclipse3{
-  position: absolute;
-  width: 58px;
-  height: 58px;
-  left: 10%;
-  top: 55%;
-  border-radius: 50%;
-  background: #F37575;
-}
-
-.eclipse4{
-  position: absolute;
-  width: 10vw;
-  height: 20vh;
-  left: 10%;
-  top: 70%;
-  border-radius: 50%;
-  background: #F37575;
 }
 
 /* font styling */
@@ -298,7 +256,6 @@ h3{
 }
 
 .skills-card {
-  background-color: rgba(247, 247, 247, 0.3);
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -505,48 +462,6 @@ h3{
     font-size: 20px;
   }
 
-  /* background styling */
-
-  .eclipse1 {
-    position: absolute;
-    width: 45vw;
-    height: 25vh;
-    left: 65%;
-    top: 30%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
-  .eclipse2 {
-    position: absolute;
-    width: 85vw;
-    height: 50vh;
-    left: 5%;
-    top: -25%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
-  .eclipse3{
-    position: absolute;
-    width: 10%;
-    height: 5%;
-    left: 10%;
-    top: 63%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
-  .eclipse4{
-    position: absolute;
-    width: 20vw;
-    height: 12vh;
-    left: 10%;
-    top: 70%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -710,48 +625,5 @@ h3{
   .home-text h1 {
     font-size: 60px;
   }
-
-  /* background styling */
-
-  .eclipse1 {
-    position: absolute;
-    width: 30vw;
-    height: 25vh;
-    left: 65%;
-    top: 25%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
-  .eclipse2 {
-    position: absolute;
-    width: 401px;
-    height: 394px;
-    left: 5%;
-    top: -10%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
-  .eclipse3{
-    position: absolute;
-    width: 58px;
-    height: 58px;
-    left: 10%;
-    top: 55%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
-  .eclipse4{
-    position: absolute;
-    width: 22vw;
-    height: 16vh;
-    left: 10%;
-    top: 63%;
-    border-radius: 50%;
-    background: #F37575;
-  }
-
 
 }
