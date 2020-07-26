@@ -98,8 +98,8 @@ h3{
   width: 100%;
   border-radius: 50%;
   /* box-shadow: 0 0 0 rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
-  filter: drop-shadow(7px 7px 7px #666666);
-  -webkit-filter: drop-shadow(7px 7px 7px #666666);
+  filter: drop-shadow(7px 7px 7px #222222);
+  -webkit-filter: drop-shadow(7px 7px 7px #222222);
 }
 
 .about-text2 a {
@@ -144,7 +144,7 @@ h3{
 }
 
 .card-deck .card {
-  background-color: #4B8BC7 !important;
+  background-color: #35132E !important;
   margin-bottom: 30px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
@@ -280,8 +280,8 @@ h3{
   height: auto;
   width: 40%;
   margin-right: 7%;
-  filter: drop-shadow(7px 7px 7px #666666);
-  -webkit-filter: drop-shadow(7px 7px 7px #666666);
+  filter: drop-shadow(7px 7px 7px #222222);
+  -webkit-filter: drop-shadow(7px 7px 7px #222222);
 }
 
 .skills-individual-images {
@@ -417,9 +417,8 @@ h3{
     height: auto;
     width: 100%;
     border-radius: 50%;
-    /* box-shadow: 0 0 0 rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
-    filter: drop-shadow(7px 7px 7px #666666);
-    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+    filter: none;
+    -webkit-filter: none;
   }
 
   .about-text2 a {
@@ -538,9 +537,8 @@ h3{
     height: auto;
     width: 100%;
     border-radius: 50%;
-    /* box-shadow: 0 0 0 rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
-    filter: drop-shadow(7px 7px 7px #666666);
-    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+    filter: none;
+    -webkit-filter: none;
   }
 
   .about-text2 a {

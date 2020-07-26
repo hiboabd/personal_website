@@ -13,8 +13,6 @@ import Contact from "./components/contact";
 function App() {
   const location = useLocation();
 
-  console.log(location.pathname)
-
   const transitions = useTransition(location, location => location.pathname, {
     from: {opacity: 0, transform: "translate(100%, 0)"},
     enter: {opacity: 1, transform: "translate(0%, 0)"},
