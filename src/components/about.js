@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'
 import hibo from '../images/Hibo_Abdilaahi.jpeg'
 import github from '../images/Github.png'
 import twitter from '../images/Twitter.png'
