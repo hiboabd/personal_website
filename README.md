@@ -34,8 +34,6 @@ So I can have a fun homepage
 I would like the text below the name to have a typewriter effect
 `
 
-![Homepage mockup](Images/Homepage_mockup.png)
-
 ### Other
 
 `As a user,
