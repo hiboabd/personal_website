@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../images/personal_website.png"
+import personal_website from "../images/personal_website.png"
 import makersbnb from "../images/MakersBnb.png"
 import runboris from "../images/Run_Boris_Run.png"
 import dailyguardian from "../images/Daily_Guardian.png"
@@ -21,7 +21,7 @@ function Portfolio() {
       <CardDeck>
         <Card bg='info'>
           <Card.Header>This website!</Card.Header>
-          <Card.Img variant="top" src={image} />
+          <Card.Img variant="top" src={personal_website} />
           <Card.Body>
             <Card.Text>
               Designed primarily using React and React-Boostrap.

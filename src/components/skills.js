@@ -17,6 +17,7 @@ import github from '../images/Github.png'
 import postgresql from '../images/PostgreSQL.png'
 import travisCI from '../images/travis-ci.png'
 import netlify from '../images/Netlify.png'
+import mongodb from '../images/Mongodb.png'
 
 function Skills() {
 
@@ -77,6 +78,9 @@ function Skills() {
           </div>
           <div className="skills-individual-images">
           <img src={travisCI} alt="TravisCI"/>
+          </div>
+          <div className="skills-individual-images">
+          <img src={mongodb} alt="Mongodb"/>
           </div>
 
         </div>

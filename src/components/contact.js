@@ -63,6 +63,7 @@ render () {
       <div className="contact-text">
         <h1> Contact </h1>
         <h3> Want to get in touch? Send me a message! </h3>
+        <p> Or email me directly at hiboabdilaahi@gmail.com </p>
       </div>
       <div className="contact-form">
         <Form onSubmit={this.handleSubmit}>
